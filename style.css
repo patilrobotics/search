@@ -125,12 +125,13 @@ input[name="q"]:focus {
 #advForm {
     max-width: 1140px;
     min-width: 200px;
-    width: 96%;
-    margin: 40px 2% 0 45px;
+    margin: 40px 0 0 45px;
+    overflow: hidden;
 }
 
 #advForm form {
-    margin: 40px 19.337px 0 45px;
+    width:  100%;
+    overflow: hidden;
 }
 
 #find {
