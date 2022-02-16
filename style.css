@@ -14,7 +14,7 @@ body {
 
 #searchSymbol {
     position: absolute;
-    left: 25px;
+    left: 8%;
     top: 36px;
     height: 14px;
     width: 14px;
@@ -22,7 +22,8 @@ body {
 
 input[name="q"] {
     border-radius: 24px;
-    width: 95%;
+    width: 90%;
+    max-width: 582px;
     height: 38px;
     font-size: 16px;
     color: #e8eaed;
@@ -31,12 +32,7 @@ input[name="q"] {
     margin: 21px 0;
     border: 0.1px solid #5b5b5b;
     padding: 4px;
-}
 
-@media (min-width: 647px) {
-    input[name="q"] {
-        width: 582px;
-    }
 }
 
 input[name="q"]:hover {
