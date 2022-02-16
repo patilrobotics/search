@@ -11,6 +11,10 @@ body {
     max-width: 100vw;
 }
 
+#searchbardiv input:focus {
+
+}
+
 #searchSymbol {
     position: absolute;
     left: 17px;
@@ -35,14 +39,11 @@ input[name="q"] {
 
 }
 
-input[name="q"]:hover {
+input[name="q"]:hover, input[name="q"]:focus {
     background-color: #303134;
     box-shadow: 0 1px 6px 0 #171717;
     border-color: rgba(223,225,229,0);
     cursor: text;
-}
-
-input[name="q"]:focus {
     outline: 0;
 }
 
